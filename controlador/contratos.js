@@ -4,11 +4,6 @@ x.ready(iniciar);
 
 var url = "../modelo/metodos_web_service.php";
 
-var idtiposeguro = 0;
-var idseguro = 0;
-var monto    = "";
-
-
 function iniciar(){
 
     getTiposDeSeguro();
